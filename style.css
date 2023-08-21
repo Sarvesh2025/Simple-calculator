@@ -1,0 +1,42 @@
+.container{
+    display: flexbox;
+    
+    align-self: center;
+    align-content: center;
+    padding-left: 35%;
+    padding-right: 30%;
+    padding-top:4%;
+}
+.cont{
+    display:flex;
+    align-self: center;
+    align-content: center;
+    flex: 1 1 auto;
+}
+.cont button{
+    align-items: center;
+    height: 6em;
+    width: 6em;
+    background-color: blanchedalmond;
+    font-size: medium;
+    font-weight:bolder;
+    color: brown;
+    border-radius: 2%;
+    border-color: black;
+    border-width: 4px;
+}
+button:hover {
+    background-color:#57354f;
+    color: white;
+    cursor: pointer;  
+}
+#ans {
+    width:24em;
+    height:4em;
+    background-color: aqua;
+    border-radius: 2%;
+    border-width: 4px;
+    border-color: black;
+    display: flex;
+    flex: 1 1 auto;
+}
